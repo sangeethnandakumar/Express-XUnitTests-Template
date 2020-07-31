@@ -43,5 +43,13 @@ namespace Demo.UnitTests.Login
             }
         }
 
+        [Fact(Skip = "It's buggy can't test until fixed monday")]
+        public void PerformLogin_VaidCredential_ReturnTrue()
+        {
+            var loginService = new LoginService();
+            var isLoggedIn = loginService.PerformLogin(new Credential("sangeeth", "sangee"));
+            Assert.True(isLoggedIn);
+        }
+
     }
 }

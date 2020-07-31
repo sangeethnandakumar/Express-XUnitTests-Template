@@ -1,14 +1,12 @@
 ﻿using ClassLibrary;
 using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Text;
 using Xunit;
 
 namespace Demo.Fixtures
 {
     [CollectionDefinition("LoginFixture")]
-    public class LoginFixture : IClassFixture<LoginFixture>
+    public class LoginFixture : IClassFixture<LoginFixture>, IDisposable
     {
         public SqlConnection Db { get; private set; }
         public Credential Credential { get; set; }
