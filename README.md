@@ -2,7 +2,7 @@
 
 Express Unit testing is not a library. It's a template project structure for unit and integration testing by making use of XUnit framework
 
-![alt text](https://lh3.googleusercontent.com/proxy/B_7eIUlcSWIhijMsKkvsKeB4sv5ZqG8cOGXyWFKIrIAgPlQTL_RyHreEs5bCSthMBUgPzIuifuFL89mIzpZfMhA)
+![alt text](https://d585tldpucybw.cloudfront.net/sfimages/default-source/productsimages/justmock/justmock__net_770.png?sfvrsn=b4522579_1)
 
 ### Repository Contents
 This repo maintains 2 projects. One is a class library which mocks our program to be tested and another is a Unit test project which implements XUnit core features and its configurations. The repo includes template for running unit testing and integration testing with proper file organisation
